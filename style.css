@@ -14,13 +14,16 @@ top: 0;
 left: 0;
 z-index: 100;
 padding:5rem .5rem;
-box-shadow:5px 5px 20px rgba(0,0,0,.5);
-background:black;
-
-  }
+box-shadow:0px 0px 10px 4px rgba(7, 169, 245, 0.5);
+/* background:black; */
+}
+.girly{
+font-size: 1.5rem !important;
+}
   
   
-  .navbar-brand{
+  
+.navbar-brand{
 font-size: 25px;
  }
 
@@ -51,12 +54,7 @@ font-size: 25px;
 
 
 
-  
-  <li class="nav-item">
-  <a class="nav-link" href="#">Link</a>
-</li>{
-
-  }
+ 
 
 
 
@@ -64,25 +62,37 @@ font-size: 25px;
 
 
 .second{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100vw;
     height: 35vh;
 }
 .second_co{
-    border: 1px solid black;
+   /* border: 1px solid black; */
     width: 80vw;
     height: 35vh;
     margin: auto;
 }
 .second_co1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 35vw;
     height: 30vh;
     float: left;
 }
 .second_co2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 35vw;
     height: 30vh;
     float: right;
+    padding-top: 4vh;
+    padding-left: 5vw;
+}
+.second_co2 > img{
+  /* border: 1px solid black; */
+    width: 25vw;
+    height: 26vh;
+    
+}
+.second_co1 p{
+  /* font-size: 1.2rem; */
+  
 }
