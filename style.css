@@ -13,12 +13,12 @@ position:sticky;
 top: 0;
 left: 0;
 z-index: 100;
-padding:5rem .5rem;
+padding:3rem .3rem;
 box-shadow:0px 0px 10px 4px rgba(7, 169, 245, 0.5);
 /* background:black; */
 }
 .girly{
-font-size: 1.5rem !important;
+font-size: 1.7rem !important;
 }
   
   
@@ -26,39 +26,6 @@ font-size: 1.5rem !important;
 .navbar-brand{
 font-size: 25px;
  }
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
 
 
 .second{
@@ -92,7 +59,53 @@ font-size: 25px;
     height: 26vh;
     
 }
-.second_co1 p{
-  /* font-size: 1.2rem; */
-  
+/* .second_co1 p{
+ */
+/* } */
+
+#tharsha{
+  margin-left: 180px;
 }
+
+.team-galary{
+  margin-left: 180px !important;
+  background: color #dbddf1  ;
+}
+
+
+
+
+.img-gallery{
+
+
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.img-gallery{
+  width:100%;
+cursor:pointer;
+
+}
+.img-gallery img:hover {
+transform:scale(0.8) rotate(-15dge)
+border-radious:20px;
+box-shadow:0 32px 75px; rgba(68 77 136 0.2);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
