@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
   *{
     padding:0;
@@ -13,8 +12,12 @@ position:sticky;
 top: 0;
 left: 0;
 z-index: 100;
-padding:3rem .3rem;
-box-shadow:0px 0px 10px 4px rgba(7, 169, 245, 0.5);
+padding:2rem .3rem;
+height:5px !important;
+margin-bottom: 10px !important;
+/* background-color: tan; */
+/* position: fixed; */
+/* box-shadow:0px 0px 10px 4px rgba(7, 169, 245, 0.5); */
 /* background:black; */
 }
 .girly{
@@ -32,6 +35,8 @@ font-size: 25px;
     /* border: 1px solid black; */
     width: 100vw;
     height: 35vh;
+    /* background-color:rgb(219, 242, 243); */
+    background-color:  rgb(255, 246, 234);
 }
 .second_co{
    /* border: 1px solid black; */
@@ -65,6 +70,8 @@ font-size: 25px;
 
 #tharsha{
   margin-left: 180px;
+  width: 350px;
+  height: 350px;
 }
 
 .team-galary{
@@ -72,6 +79,10 @@ font-size: 25px;
   background: color #dbddf1  ;
 }
 
+img-galary{
+  margin-left: 180px !important;
+  background: color #dbddf1  ;
+}
 
 
 
@@ -90,22 +101,36 @@ cursor:pointer;
 
 }
 .img-gallery img:hover {
-transform:scale(0.8) rotate(-15dge)
-border-radious:20px;
-box-shadow:0 32px 75px; rgba(68 77 136 0.2);
+transform:scale(0.8) rotate(-15dge);
+border-radius:20px;
+box-shadow:0 32px 75px rgba(68 77 136 0.2);
 
 }
 
 
+.img-nav{
+  align-content: center;
+  text-align: center;
+}
 
+hr{
+  width: 20px;
+  color: rgb(138, 17, 17) !important;
+  margin-left: 600px !important;
+  padding-left: 100px;
+  
+  }
+  
+/*   
+  .img-nav{
+    align-content:px;
+  
+} */
 
+.team-margin{
+  margin-left: 150px;
+}
+.foot{
+  background-color: lightblue !important;
 
-
-
-
-
-
-
-
-
-
+}
