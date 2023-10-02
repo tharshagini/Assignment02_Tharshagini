@@ -79,10 +79,6 @@ font-size: 25px;
   background: color #dbddf1  ;
 }
 
-img-galary{
-  margin-left: 180px !important;
-  background: color #dbddf1  ;
-}
 
 
 
@@ -133,4 +129,12 @@ hr{
 .foot{
   background-color: lightblue !important;
 
+}
+.product-image:hover{
+  border-radius: 20px;
+}
+
+
+#navbar-product{
+  background-color: rgb(231, 225, 225) !important;
 }
